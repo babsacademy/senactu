@@ -1,3 +1,4 @@
+import { ActualitePage } from './../actualite/actualite';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {ActulistPage} from "../actulist/actulist";

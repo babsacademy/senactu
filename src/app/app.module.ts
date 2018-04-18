@@ -1,11 +1,12 @@
+import { ActuPage } from './../pages/actu/actu';
+import { ChroniquePage } from './../pages/chronique/chronique';
+import { ActualitePage } from './../pages/actualite/actualite';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {TitlepComponent} from "../components/titlep/titlep";
@@ -18,7 +19,10 @@ import {ActulistPage} from "../pages/actulist/actulist";
     HomePage,
     ListPage,
       TitlepComponent,
-    ActulistPage
+    ActulistPage,
+    ActuPage,
+    ActualitePage,
+    ChroniquePage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,10 @@ import {ActulistPage} from "../pages/actulist/actulist";
     MyApp,
     HomePage,
     ListPage,
-    ActulistPage
+    ActulistPage,
+    ActualitePage,
+    ChroniquePage,
+    ActuPage
   ],
   providers: [
     StatusBar,
